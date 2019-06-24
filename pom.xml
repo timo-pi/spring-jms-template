@@ -30,6 +30,7 @@
             <groupId>org.apache.activemq</groupId>
             <artifactId>activemq-client</artifactId>
         </dependency>
+
         <!-- Can be used for basic scenarios -->
         <!--<dependency>-->
             <!--<groupId>org.springframework.boot</groupId>-->

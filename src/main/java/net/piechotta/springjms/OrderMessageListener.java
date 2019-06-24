@@ -10,10 +10,10 @@ public class OrderMessageListener {
             containerFactory = "TopicListenerContainerFactory",
             subscription = "orders")
     public void onMessage(Order order) {
-        System.out.println(order);
+        System.out.println("Received: " + order);
     }
 
-    /* To receive raw java.jms.Message objects then use the following instead
+    /* To receive raw java.jms.Message objects use the following:
     @JmsListener(destination = "Orders",
             containerFactory = "TopicListenerContainerFactory",
             subscription = "orders")

@@ -10,7 +10,7 @@ import javax.jms.ConnectionFactory;
 
 public class DynamicJmsTemplateExample {
 
-    @Autowired
+/*    @Autowired
     @Qualifier("cachingConnectionFactory")
     ConnectionFactory cachingConnectionFactory;
 
@@ -26,6 +26,6 @@ public class DynamicJmsTemplateExample {
         template.setPriority(priority);
         template.setTimeToLive(timeToLive);
         template.convertAndSend("Emails", email);
-    }
+    }*/
 
 }

@@ -27,7 +27,7 @@ public class EmailGenerator {
     }
 
     @SuppressWarnings("Duplicates")
-    @Scheduled(fixedDelay = 5000)
+    @Scheduled(fixedDelay = 4000)
     public void generateEmail() {
         Email email = new Email();
         email.setEmailAddress("grant@grantlittle.me");
